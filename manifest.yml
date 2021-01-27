@@ -3,6 +3,5 @@ applications:
 - name: spring-music
   memory: 1G
   random-route: true
-  stack: org.cloudfoundry.stacks.cflinuxfs3
   env:
     BP_AUTO_RECONFIGURATION_ENABLED: false
